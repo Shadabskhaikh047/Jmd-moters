@@ -4,7 +4,9 @@ export default function Footer() {
   return (
     <footer className="bg-zinc-950 w-full border-t border-zinc-900 grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-16">
       <div className="flex flex-col gap-4">
-        <span className="text-xl font-black text-white italic font-['Space_Grotesk']">JMD Motors</span>
+        <Link href="/" className="text-xl font-black text-white italic font-['Space_Grotesk'] hover:opacity-90 transition-opacity w-fit">
+          JMD Motors
+        </Link>
         <p className="font-['Space_Grotesk'] text-sm text-zinc-400 max-w-xs">
           Buy Your Dream Car Without Any Waiting. Premium pre-owned vehicles with complete transparency.
         </p>
